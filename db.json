@@ -1,0 +1,214 @@
+{
+  "java": [
+    [
+  {
+    "type": "multiple_choice",
+    "question": "Which method is the entry point of a Java program?",
+    "choices": {
+      "1": "start()",
+      "2": "main()",
+      "3": "run()",
+      "4": "init()"
+    },
+    "correctAnswer": "2",
+    "explanation": "Every Java application must contain a main() method with the signature: public static void main(String[] args)"
+  },
+  {
+    "type": "multiple_choice",
+    "question": "What does JVM stand for?",
+    "choices": {
+      "1": "Java Variable Method",
+      "2": "Java Virtual Machine",
+      "3": "Java Verified Module",
+      "4": "Java Visual Manager"
+    },
+    "correctAnswer": "2",
+    "explanation": "JVM (Java Virtual Machine) is the engine that executes Java bytecode and provides a runtime environment."
+  },
+  {
+    "type": "text_response",
+    "question": "What keyword is used to define a constant in Java?",
+    "correctAnswer": "final",
+    "explanation": "The 'final' keyword makes a variable unmodifiable after initialization. Example: final double PI = 3.14159;"
+  },
+  {
+    "type": "multiple_choice",
+    "question": "Which operator is used for comparison in Java?",
+    "choices": {
+      "1": "=",
+      "2": "==",
+      "3": "===",
+      "4": ":="
+    },
+    "correctAnswer": "2",
+    "explanation": "The == operator checks for equality between two values, while = is for assignment."
+  },
+  {
+    "type": "image_selection",
+    "question": "Which of these shows the correct way to create a new ArrayList in Java?",
+    "images": {
+      "1": "arraylist_option1.png",
+      "2": "arraylist_option2.png",
+      "3": "arraylist_option3.png",
+      "4": "arraylist_option4.png"
+    },
+    "correctAnswer": "3",
+    "explanation": "The correct syntax is: ArrayList<String> list = new ArrayList<>(); using generics and the diamond operator."
+  },
+  {
+    "type": "multiple_choice",
+    "question": "What is the size of an `int` in Java?",
+    "choices": {
+      "1": "4 bytes",
+      "2": "2 bytes",
+      "3": "8 bytes",
+      "4": "Depends on OS"
+    },
+    "correctAnswer": "1",
+    "explanation": "In Java, an int is always 32 bits (4 bytes) regardless of the operating system."
+  },
+  {
+    "type": "multiple_choice",
+    "question": "Which keyword is used to handle exceptions in Java?",
+    "choices": {
+      "1": "try",
+      "2": "throw",
+      "3": "catch",
+      "4": "All of the above"
+    },
+    "correctAnswer": "4",
+    "explanation": "Java uses try-catch blocks for exception handling, and 'throw' to explicitly raise exceptions."
+  },
+  {
+    "type": "text_response",
+    "question": "What keyword is used to create a class in Java?",
+    "correctAnswer": "class",
+    "explanation": "Classes are defined using the 'class' keyword. Example: public class MyClass { ... }"
+  },
+  {
+    "type": "image_selection",
+    "question": "Which of these is a valid Java variable declaration?",
+    "images": {
+      "1": "var_option1.png",
+      "2": "var_option2.png",
+      "3": "var_option3.png",
+      "4": "var_option4.png"
+    },
+    "correctAnswer": "2",
+    "explanation": "Valid Java variable names can contain letters, numbers, and underscores but cannot start with numbers."
+  },
+  {
+    "type": "multiple_choice",
+    "question": "What does `System.out.println()` do in Java?",
+    "choices": {
+      "1": "Reads user input",
+      "2": "Stops the program",
+      "3": "Prints a message to the console",
+      "4": "Saves data to a file"
+    },
+    "correctAnswer": "3",
+    "explanation": "System.out.println() prints output to the standard output stream (typically the console)."
+  },
+  {
+    "type": "text_response",
+    "question": "What is the correct file extension for a Java source file?",
+    "correctAnswer": ".java",
+    "explanation": "Java source files must end with .java extension, while compiled bytecode files use .class"
+  },
+  {
+    "type": "multiple_choice",
+    "question": "Which loop is guaranteed to execute at least once?",
+    "choices": {
+      "1": "for loop",
+      "2": "while loop",
+      "3": "do-while loop",
+      "4": "foreach loop"
+    },
+    "correctAnswer": "3",
+    "explanation": "do-while loops check the condition after executing the loop body, ensuring at least one execution."
+  },
+  {
+    "type": "image_selection",
+    "question": "Which of these shows proper exception handling in Java?",
+    "images": {
+      "1": "exception_option1.png",
+      "2": "exception_option2.png",
+      "3": "exception_option3.png",
+      "4": "exception_option4.png"
+    },
+    "correctAnswer": "4",
+    "explanation": "Proper exception handling includes try-catch blocks with specific exception types when possible."
+  },
+  {
+    "type": "multiple_choice",
+    "question": "Which of these is a valid data type in Java?",
+    "choices": {
+      "1": "real",
+      "2": "decimal",
+      "3": "double",
+      "4": "num"
+    },
+    "correctAnswer": "3",
+    "explanation": "double is a 64-bit floating-point primitive data type in Java."
+  },
+  {
+    "type": "text_response",
+    "question": "How do you write a single-line comment in Java?",
+    "correctAnswer": "//",
+    "explanation": "Single-line comments start with //, while multi-line comments use /* ... */"
+  }
+]
+  ],
+  "python": [
+    [
+    {
+      "type": "multiple_choice",
+      "question": "How do you create a virtual environment in Python?",
+      "choices": {
+        "1": "python create venv",
+        "2": "python -m venv",
+        "3": "python virtual env",
+        "4": "python make environment"
+      },
+      "correctAnswer": "2",
+      "explanation": "The correct command is 'python -m venv' followed by the environment name."
+    },
+    {
+      "type": "text_response",
+      "question": "What keyword defines a function in Python?",
+      "correctAnswer": "def",
+      "explanation": "Functions in Python are defined using the 'def' keyword."
+    },
+    {
+        "type": "image_selection",
+        "question": "Which image shows the correct way to define a function in Python?",
+        "images": {
+          "1": "python_func1.png",
+          "2": "python_func2.png",
+          "3": "python_func3.png",
+          "4": "python_func4.png"
+        },
+        "correctAnswer": "2",
+        "explanation": "The correct way to define a function in Python is using 'def function_name(parameters):'. Indentation is also required."
+      },
+    {
+      "type": "multiple_choice",
+      "question": "What is the output of 'print(3 * 'hi')' in Python?",
+      "choices": {
+        "1": "hihihi",
+        "2": "3hi",
+        "3": "Error",
+        "4": "hi hi hi"
+      },
+      "correctAnswer": "1",
+      "explanation": "In Python, multiplying a string by an integer repeats the string."
+    },
+    {
+      "type": "text_response",
+      "question": "What built-in function returns the length of a sequence?",
+      "correctAnswer": "len",
+      "explanation": "The len() function returns the number of items in a sequence."
+    }
+  ]
+  ]
+}
